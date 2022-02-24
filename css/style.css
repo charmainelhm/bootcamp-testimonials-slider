@@ -64,6 +64,11 @@ h2 {
   max-height: 0;
 }
 
+.testimonial__photo--active {
+  max-height: 100%;
+  box-shadow: var(--shadow-image);
+}
+
 .testimonial__content-container {
   position: relative;
 }
@@ -77,11 +82,6 @@ h2 {
   transform: translateX(-50%);
   top: -20px;
   background: url(../images/pattern-quotes.svg) no-repeat center/contain;
-}
-
-.testimonial__photo--active {
-  max-height: 100%;
-  box-shadow: var(--shadow-image);
 }
 
 .testimonial__content {
@@ -142,6 +142,8 @@ h2 {
 /* Attribution */
 .attribution {
   position: absolute;
+  width: 100%;
+  bottom: 1px;
   font-size: 11px;
   text-align: center;
 }
